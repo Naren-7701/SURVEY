@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SURVEY FORM
+        </title>
+    <style type="text/css">
+        body{
+                font-family: calibri; 
+                font-size: large;
+                border: 10px;
+                background-image: url(bluebgc.jpg)
+            }   
+     </style>
+    </head>
+    <body>
+        <font color="white">
+        <h1><u><center>SURVEY FORM</center></u></h1>
+        <form name="Survey Form" method="post">
+        <table width="100%" cellspacing="1" cellpadding="2" align="center">
+        <tr>
+            <td><strong>NAME:</strong></td>
+            <td><input type="text" name="name" maxlength="500" /></td>
+        </tr>
+        <tr>
+            <td><strong>DOB:</strong></td>
+            <td><input type="date" name="dob" /></td>
+            </tr>
+        <tr>
+                <td><strong>REG.NO:</strong></td>
+                <td><input type="text" name="reg" maxlength="9"/></td>
+        </tr>
+        <tr>
+            <td><strong>COLLEGE:</strong></td>
+            <td><input type="text" name="college" maxlength="50"/></td>
+        </tr>
+        <tr>
+            <td><strong>CONTACT.NO:</strong></td>
+            <td><input type="text" name="contact" maxlength="10" /></td>
+        </tr>
+        <tr>
+            <td><strong>E-mail ID:</strong></td>
+            <td><input type="email" name="email" maxlength="50" /></td>
+        </tr>
+        <tr>
+            <td><strong>DEPARTMENT:</strong></td>
+            <td><input type="checkbox" name="architect"/><option>Architecture</option></td>
+            <td><input type="checkbox" name="design"/><option>Design</option></td>
+            <td><input type="checkbox" name="managment"/><option>Management</option></td>
+            <td><input type="checkbox" name="technical"/><option>Technical</option></td>
+            <td><input type="checkbox" name="editorial"/><option>Editorial</option></td>
+            <td><input type="checkbox" name="marketing"/><option>Marketing</option></td>
+        </tr>
+        <tr>
+            <td>
+                <strong>How do u came to know about us(optional):</strong></td>
+            <td><input type="radio" name="method" value="media" /><option>Media</option>
+            <td><input type="radio" name="method" value="news Papers" /><option>News Papers</option></td>
+            <td><input type="radio" name="method" value="advertisment" /><option>Advertisment</option></td>
+            <td><input type="radio" name="method" value="friends" /><option>Friends</option></td>
+            <td><input type="radio" name="method" value="recommendation" /><option>Recommendation</option></td>
+            <td><input type="radio" name="method" value="web" /><option>Webinars/&nbsp;Events</option></td>
+        </tr>
+        <tr>
+            <td><strong>The Reason for Choosing the Above Department: </strong>
+            <td><textarea name="reason" cols="20" rows="5" ></textarea></td>
+        <tr>
+            <td><strong>Any Experience in the Above Mentioned Department:</strong></td>
+            <td><textarea name="experience" cols="20" rows="5" ></textarea></td>
+        </tr>
+        <tr>
+            <td><strong>Reason For choosing the club (optional):</strong></td>
+            <td><textarea name="club" cols="20" rows="5" ></textarea></td>
+        </tr>
+        <tr>
+            <td><strong>LINK for Any Social Media Account&nbsp;(Github/Linked IN):</strong></td>
+            <td><input type="url" maxlength="100" width=70% height="100"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="submit" value="Submit" >&nbsp;<input type="reset" name="reset" value="Reset"></td>
+        </tr>
+    </table>
+        </form>
+    </font>
+    </body>
+</html>
